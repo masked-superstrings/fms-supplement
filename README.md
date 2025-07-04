@@ -2,6 +2,8 @@
 
 Here we provide supplementary materials for the paper *Towards Efficient k-Mer Set Operations via Function-Assigned Masked Superstrings*, including the data sets used and experimental pipelines.
 
+See the [supplementary material pdf](supplementary-material.pdf).
+
 ### Citation
 
 > Ondřej Sladký, Pavel Veselý, and Karel Břinda: Towards Efficient *k*-Mer Set Operations via Function-Assigned Masked Superstrings.
