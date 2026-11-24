@@ -7,19 +7,18 @@ See the [supplementary material pdf](supplementary-material.pdf).
 ### Citation
 
 > Ondřej Sladký, Pavel Veselý, and Karel Břinda: Towards Efficient *k*-Mer Set Operations via Function-Assigned Masked Superstrings.
-> *bioRxiv* 2024.03.06.583483, 2024. [https://doi.org/10.1101/2024.03.06.583483](https://doi.org/10.1101/2024.03.06.583483)
+> *Proceedings of the Prague Stringology Conference (PSC)*, pp. 26–40, 2025. [Paper](https://www.stringology.org/event/2025/p04.html); preprint: *bioRxiv* 2024.03.06.583483, [https://doi.org/10.1101/2024.03.06.583483](https://doi.org/10.1101/2024.03.06.583483)
 
 ```
-@article {sladky2024-f-masked-superstrings,
-	author = {Sladk{\'y}, Ond{\v r}ej and Vesel{\'y}, Pavel and B{\v r}inda, Karel},
-	title = {Towards Efficient k-Mer Set Operations via Function-Assigned Masked Superstrings},
-	elocation-id = {2024.03.06.583483},
-	year = {2025},
-	doi = {10.1101/2024.03.06.583483},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2025/02/22/2024.03.06.583483},
-	eprint = {https://www.biorxiv.org/content/early/2025/02/22/2024.03.06.583483.full.pdf},
-	journal = {bioRxiv}
+@inproceedings{Sladky2025fms,
+  title = {Towards efficient $k$-mer set operations via function-assigned masked superstrings},
+  author = {Ond{\v{r}}ej Sladk{\'{y}} and Pavel Vesel{\'{y}} and Karel B{\v{r}}inda},
+  booktitle = {Proceedings of the Prague Stringology Conference 2025},
+  editor = {Jan Holub and Jan {\v{Z}}{\v{d}}{\'{a}}rek},
+  pages = {26--40},
+  address = {Czech Technical University in Prague, Czech Republic},
+  isbn = {978-80-01-07461-9},
+  year = {2025}
 }
 ```
 
@@ -33,7 +32,7 @@ which experimentaly implements membership queries as well as several basic opera
 masked superstrings such as normalization, export and merging, which can be used to perform set operations.
 
 ### Used $f$-masked superstrings computed by KmerCamel🐫
-To compute the $f$-masked superstrings used for representing the $k$-mer sets, we used [KmerCamel🐫](tps://github.com/OndrejSladky/kmercamel)  (see also the [masked superstrings paper](https://doi.org/10.1101/2023.02.01.526717)).
+To compute the $f$-masked superstrings used for representing the $k$-mer sets, we used [KmerCamel🐫](https://github.com/OndrejSladky/kmercamel)  (see also the [masked superstrings paper](https://doi.org/10.1101/2023.02.01.526717)).
 Specifically we have used the (default) global greedy algorithm .
 
 ## Experimental evaluation
