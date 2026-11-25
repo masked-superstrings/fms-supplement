@@ -7,7 +7,7 @@ See the [supplementary material pdf](supplementary-material.pdf).
 ### Citation
 
 > Ondřej Sladký, Pavel Veselý, and Karel Břinda: Towards Efficient *k*-Mer Set Operations via Function-Assigned Masked Superstrings.
-> *Proceedings of the Prague Stringology Conference (PSC)*, pp. 26–40, 2025. [Paper](https://www.stringology.org/event/2025/p04.html); preprint: *bioRxiv* 2024.03.06.583483, [https://doi.org/10.1101/2024.03.06.583483](https://doi.org/10.1101/2024.03.06.583483)
+> In: *Proceedings of the Prague Stringology Conference 2025* (J. Holub, J. Žďárek, eds.), Czech Technical University in Prague, 2025, pp. 26–40. [Paper](https://www.stringology.org/event/2025/p04.html); preprint: *bioRxiv* 2024.03.06.583483, [https://doi.org/10.1101/2024.03.06.583483](https://doi.org/10.1101/2024.03.06.583483)
 
 ```
 @inproceedings{Sladky2025fms,
@@ -16,7 +16,8 @@ See the [supplementary material pdf](supplementary-material.pdf).
   booktitle = {Proceedings of the Prague Stringology Conference 2025},
   editor = {Jan Holub and Jan {\v{Z}}{\v{d}}{\'{a}}rek},
   pages = {26--40},
-  address = {Czech Technical University in Prague, Czech Republic},
+  publisher = {Czech Technical University in Prague},
+  address = {Prague, Czech Republic},
   isbn = {978-80-01-07461-9},
   year = {2025}
 }
