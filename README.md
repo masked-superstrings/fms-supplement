@@ -28,12 +28,12 @@ See the [supplementary material pdf](supplementary-material.pdf).
 ### Indexing $f$-masked superstrings - FMSI
 
 Indexing, membership queries, and set operations on $k$-mer sets represented via $f$-masked superstrings
-was performed and benchmarked on [FMSI](https://github.com/OndrejSladky/fmsi),
+was performed and benchmarked on [FMSI](https://github.com/masked-superstrings/fmsi),
 which experimentaly implements membership queries as well as several basic operations on indexed
 masked superstrings such as normalization, export and merging, which can be used to perform set operations.
 
 ### Used $f$-masked superstrings computed by KmerCamel🐫
-To compute the $f$-masked superstrings used for representing the $k$-mer sets, we used [KmerCamel🐫](https://github.com/OndrejSladky/kmercamel)  (see also the [masked superstrings paper](https://doi.org/10.1101/2023.02.01.526717)).
+To compute the $f$-masked superstrings used for representing the $k$-mer sets, we used [KmerCamel🐫](https://github.com/masked-superstrings/kmercamel)  (see also the [masked superstrings paper](https://doi.org/10.1101/2023.02.01.526717)).
 Specifically we have used the (default) global greedy algorithm .
 
 ## Experimental evaluation
